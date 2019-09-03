@@ -61,8 +61,8 @@ def select():
       print("\033[1;34mThis tool is only available for Linux and similar systems.")
       os.system("cd $dir")
       os.system("rm -rf Crips")
-      os.system("git clone https://github.com/Manisso/Crips.git")
-      os.system("cd Crips && bash ./update.sh")
+      os.system("git clone https://github.com/tonmoy-islam/Crips.git")
+      os.system("cd Crips && bash ./install.sh")
 
     elif choice == 2:
       d3 = input('Enter IP Or Domain : ')
